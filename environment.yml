@@ -1,0 +1,10 @@
+name: statml
+dependencies:
+ - python>=3.8
+ - numpy
+ - scikit-image 
+ - scipy
+ - matplotlib
+ - jupyterlab
+ - pandas>=1.0
+ - scikit-learn
