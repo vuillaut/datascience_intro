@@ -4,6 +4,8 @@ Thomas Vuillaume
 
 contact me at firstname.name[at]lapp.in2p3.fr
 
+slides: https://lapp-owncloud.in2p3.fr/s/4YKq4Ko4C6gj5w6
+
 ## Running online
 
 - [Google colab](https://colab.research.google.com/github/vuillaut/datascience_intro/)
