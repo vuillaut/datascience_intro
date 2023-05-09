@@ -12,6 +12,10 @@ contact me at firstname.name[at]lapp.in2p3.fr
 
 ## Courses content:
 
+### Slides
+
+https://lapp-owncloud.in2p3.fr/s/4YKq4Ko4C6gj5w6
+
 ### Course 0: Python and environment setup
 These are reminders of prerequisite for this course
 
