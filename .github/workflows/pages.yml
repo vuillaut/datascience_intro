@@ -1,0 +1,35 @@
+name: Build and Deploy Jupyter Notebooks to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # or replace with your default branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Setup Conda
+      uses: conda-incubator/setup-miniconda@v2
+      with:
+        activate-environment: statml
+        environment-file: environment.yml  # Replace with your conda environment file
+        python-version: 3.8
+        auto-activate-base: false
+
+    - name: Convert Jupyter Notebooks to HTML
+      run: |
+        conda activate statml
+        jupyter nbconvert --to html **/*.ipynb  # Convert all notebooks to HTML
+        mkdir docs; mv *.html docs
+        python .github/workflows/build_index.py
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: docs  # Replace with the directory where the HTML files are located
