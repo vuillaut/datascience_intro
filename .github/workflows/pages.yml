@@ -5,6 +5,14 @@ on:
     branches:
       - main  # or replace with your default branch
 
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -29,8 +37,15 @@ jobs:
         mkdir docs; mv **/*.html docs
         python .github/workflows/build_index.py
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Setup Pages
+      uses: actions/configure-pages@v3
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v2
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs  # Replace with the directory where the HTML files are located
+        # Upload entire repository
+        path: 'docs'
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2
