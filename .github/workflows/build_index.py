@@ -1,6 +1,6 @@
 import os
 
-def generate_index_html(notebook_files, build_dir='docs/'):
+def generate_index_html(notebook_files, build_dir='.'):
     html_content = "<html>\n<head><title>My Jupyter Notebooks</title></head>\n<body>\n<h1>My Jupyter Notebooks</h1>\n<ul>\n"
     
     for notebook in notebook_files:
@@ -12,6 +12,6 @@ def generate_index_html(notebook_files, build_dir='docs/'):
         f.write(html_content)
 
 if __name__ == "__main__":
-    build_dir = "docs"
+    build_dir = "."
     notebook_files = [os.path.join(build_dir, f) for f in os.listdir(build_dir) if f.endswith('.html')]
     generate_index_html(notebook_files)
