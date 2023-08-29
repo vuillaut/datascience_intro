@@ -26,7 +26,7 @@ jobs:
       run: |
         conda activate statml
         jupyter nbconvert --to html **/*.ipynb  # Convert all notebooks to HTML
-        mkdir docs; mv *.html docs
+        mkdir docs; mv **/*.html docs
         python .github/workflows/build_index.py
 
     - name: Deploy to GitHub Pages
