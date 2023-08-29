@@ -19,9 +19,10 @@ jobs:
         activate-environment: statml
         environment-file: environment.yml  # Replace with your conda environment file
         python-version: 3.8
-        auto-activate-base: false
+        auto-activate-base: true
 
     - name: Convert Jupyter Notebooks to HTML
+      shell: bash -l {0}  # This makes sure the shell is login shell, which can recognize `conda activate`
       run: |
         conda activate statml
         jupyter nbconvert --to html **/*.ipynb  # Convert all notebooks to HTML
