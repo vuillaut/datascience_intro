@@ -4,7 +4,7 @@ Thomas Vuillaume
 
 contact me at firstname.name[at]lapp.in2p3.fr
 
-slides: https://lapp-owncloud.in2p3.fr/s/4YKq4Ko4C6gj5w6
+slides: [https://mycore.core-cloud.net/index.php/s/LEUF1mdl2rkfCEx](https://mycore.core-cloud.net/index.php/s/LEUF1mdl2rkfCEx)
 
 ## Running online
 
@@ -16,7 +16,7 @@ slides: https://lapp-owncloud.in2p3.fr/s/4YKq4Ko4C6gj5w6
 
 ### Slides
 
-https://lapp-owncloud.in2p3.fr/s/4YKq4Ko4C6gj5w6
+[https://lapp-owncloud.in2p3.fr/s/4YKq4Ko4C6gj5w6](https://mycore.core-cloud.net/index.php/s/LEUF1mdl2rkfCEx)
 
 ### Course 0: Python and environment setup
 These are reminders of prerequisite for this course
