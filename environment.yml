@@ -1,10 +1,13 @@
 name: statml
 dependencies:
  - python>=3.8
+ - numba
  - numpy
+ - numexpr
  - scikit-image 
  - scipy
  - matplotlib
  - jupyterlab
  - pandas>=1.0
+ - seaborn
  - scikit-learn
