@@ -68,9 +68,17 @@ Git:
 - Introduction to kaggle
 - Wrap-up, going further in data science
 
-# Course 7
+### Course 7
 - Big tools for Big data
 
 
 ### Homework
 - TP on exoplanets
+
+# Resources
+
+- [A visual introduction to machine learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+- [Machine Learning (Lecture 1)](https://indico.cern.ch/event/619370/) --- [Michael Kagan](https://www.linkedin.com/in/michael-kagan-06292616/) (SLAC)
+- [Machine Learning (Lecture 2)](https://indico.cern.ch/event/619371/) --- [Michael Kagan](https://www.linkedin.com/in/michael-kagan-06292616/) (SLAC)
+- [Deep Learning and Vision](https://indico.cern.ch/event/619372/) --- [Jonathon Shlens](https://research.google.com/pubs/JonathonShlens.html) (Google Research)
+- [Fidle - Deep Learning training course](https://gricad-gitlab.univ-grenoble-alpes.fr/talks/fidle)
