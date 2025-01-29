@@ -32,48 +32,22 @@ Git:
 - https://education.github.com/git-cheat-sheet-education.pdf
 
 
-### Course 1
+### Part 1: coding environment and Jupyter 
 
 - Introduction and environment setup
-- [Introduction to Numpy](numpy)
+- Working with [Jupyter](1.jupyter)
+
+### Part 2: [Numpy](2.numpy)
+
+### Part 3: [Pandas](3.pandas)
+
+### Part 4: [Matplotlib](4.matplotlib)
+
+### Part 5: [Machine learning](5.machine_learning)
+
+### Part 6: [Practical work on a real case]
 
 
-### Course 2
-
-- [Exercices with Numpy](numpy/Numpy_GalaxyMultiWaveLength.ipynb)
-- [Introduction to pandas](pandas/README.md)
-- Exercices with pandas
-
-
-### Course 3
-- [Exercices with pandas](pandas/Pandas_M1.ipynb)
-- Introduction to matplotlib and visualisation
-- Exercices with matplotlib
-- Visualisation with pandas
-
-
-### Course 4
-- [Introduction to machine learning](machine_learning/README.md)
-- Exercices with scikit-learn
-
-### Course 5
-- Machine learning #2
-- Exercices
-- [Practical work on a real case](Homework/README.md)
-
-### Course 6
-- Practical work on a real case
-- Getting scores for the real case
-- Introduction to git pull requests
-- Introduction to kaggle
-- Wrap-up, going further in data science
-
-### Course 7
-- Big tools for Big data
-
-
-### Homework
-- TP on exoplanets
 
 # Resources
 
