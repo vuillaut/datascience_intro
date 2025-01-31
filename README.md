@@ -16,7 +16,8 @@ slides: [https://mycore.core-cloud.net/index.php/s/LEUF1mdl2rkfCEx](https://myco
 
 ### Slides
 
-[https://lapp-owncloud.in2p3.fr/s/4YKq4Ko4C6gj5w6](https://mycore.core-cloud.net/index.php/s/LEUF1mdl2rkfCEx)
+[Slides](https://sdrive.cnrs.fr/s/PL7J5bmW4ap3ZrW)
+
 
 ### Course 0: Python and environment setup
 These are reminders of prerequisite for this course
