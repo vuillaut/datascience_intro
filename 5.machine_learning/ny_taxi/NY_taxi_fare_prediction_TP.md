@@ -2,8 +2,8 @@
 We will work on the kaggle challenge
 [New York City Taxi Fare Prediction](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction).
 
-In the first part, you will have to use what you have learned during this course.
-In the second part, we will make a first step into machine learning.
+You will have to use what you have learned during this course.
+
 
 
 ## Part 1
@@ -12,31 +12,30 @@ In the second part, we will make a first step into machine learning.
 
 1. Download the data from https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data (Download All button)
 Unzip the data in your working directory.
-Or download for here:
-https://filesender.renater.fr/download.php?token=93a4b6c3-3b6d-43a1-a1aa-526b476ea929&files_ids=13400545
 
-2. Start a new notebook
 
-3. Load the data from `train.csv` using pandas.
+1. Start a new notebook
+
+2. Load the data from `train.csv` using pandas.
 Hint: I recommend you to use an option to limit the number of rows (e.g. to 100.000) loaded at first so you will have less trouble handling the data.
 
-4. Explore the data to understand what it is made of. What are the columns names? What do they represent?
+1. Explore the data to understand what it is made of. What are the columns names? What do they represent?
 
-4. What is the data type of each column?
+2. What is the data type of each column?
 Is this consistent? If not, fix it.
 
-5. What is the mean cost of a taxi ride in NY?
+1. What is the mean cost of a taxi ride in NY?
 
-6. Make histograms for each column of the dataframe.
+2. Make histograms for each column of the dataframe.
 
-7. From a web search, find the latitude and longitude of New-York.    
+3. From a web search, find the latitude and longitude of New-York.    
 Is this consistent with what you can see in the data?
 
-8. What are the min and max of `pickup_longitude`, `pickup_latitude`, `dropoff_longitude`, `dropoff_latitude`?
+1. What are the min and max of `pickup_longitude`, `pickup_latitude`, `dropoff_longitude`, `dropoff_latitude`?
 Does that seem consistent with a taxi ride within the city?    
 Select data that have longitude between (-74.3, -73.7) and latitudes between (40.5, 40.9). We use only this data for the rest of the project.
 
-8. Is there some inconsistent or missing data?   
+1. Is there some inconsistent or missing data?   
 Explain what and why.
 Remove it.
 
@@ -73,6 +72,10 @@ What is the prediction of the linear regressor for a 10km ride?
 2. Plot that linear regression on top of the scatter plot
 
 3. Train Random Forests
+
+4. Propose a way to compute the performance of the Random Forests model
+
+5. Compare the performance of the linear regression and the Random Forests model
 
 
 
