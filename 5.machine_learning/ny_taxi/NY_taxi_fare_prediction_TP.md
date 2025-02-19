@@ -11,6 +11,9 @@ You will have to use what you have learned during this course.
 ### A. Data exploration
 
 1. Download the data from https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data (Download All button)
+or from https://filesender.renater.fr/?s=download&token=22621daf-b2b3-4d36-806c-811b7bc69315
+
+
 Unzip the data in your working directory.
 
 
