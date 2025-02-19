@@ -10,9 +10,9 @@ You will have to use what you have learned during this course.
 
 ### A. Data exploration
 
-1. Download the data from https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data (Download All button)
-or from https://filesender.renater.fr/?s=download&token=22621daf-b2b3-4d36-806c-811b7bc69315
+1. Download the data from the shared drive.
 
+Original dataset: https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data (Download All button)
 
 Unzip the data in your working directory.
 
@@ -87,8 +87,8 @@ What is the prediction of the linear regressor for a 10km ride?
 ### Useful functions
 
 ```
-def display_ny_map():
-    nyc_map_zoom = plt.imread('NY_taxi_fare/nyc_-74.3_-73.7_40.5_40.9.png')
+def display_ny_map(image_path='nyc_-74.3_-73.7_40.5_40.9.png'):
+    nyc_map_zoom = plt.imread(image_path)
     BB = (-74.3, -73.7, 40.5, 40.9)
     ax = plt.imshow(nyc_map_zoom, zorder=0, extent=BB)
     return ax.axes
@@ -112,4 +112,3 @@ def haversine(lon1, lat1, lon2, lat2):
     return c * r
  ```
 
-1. Make a linear regression the taxi fare from that feature
