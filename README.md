@@ -14,8 +14,7 @@ contact me at firstname.name[at]lapp.in2p3.fr
 
 ### Slides
 
-[Slides](https://sdrive.cnrs.fr/s/PL7J5bmW4ap3ZrW)
-
+[https://vuillaut.github.io/lectures/data_science_intro/1](https://vuillaut.github.io/lectures/data_science_intro/1)
 
 ### Course 0: Python and environment setup
 These are reminders of prerequisite for this course
