@@ -1,17 +1,7 @@
 # Pandas for data science
 
-The material used here is available at https://github.com/Asterics2020-Obelics/School2018
 
-```
-git clone https://github.com/Asterics2020-Obelics/School2018.git
-```
+The warmup lesson is from the ESCAPE School series: https://escape2020.github.io/school2022/
 
-```
-cd School2018/pandas
-jupyter notebook
-```
+The Exercises are from https://github.com/guipsamora/pandas_exercises/
 
-We will work in this order:
-- `1. Pandas Warming Up.ipynb`
-- `2. Reading and Visualising Data - nosols.ipynb`
-- `Matplotlib - nosols.ipynb`
