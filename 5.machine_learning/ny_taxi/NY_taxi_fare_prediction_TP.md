@@ -7,7 +7,7 @@ You will have to use what you have learned during this course.
 
 ## Preparation
 
-In the terminal (or anaconda prompt), go back to you working directory
+1. In the terminal (or anaconda prompt), go back to you working directory
 
 ```
 cd datascience_intro
@@ -17,13 +17,19 @@ git pull
 git lfs pull
 ```
 
-Unzip `5.machine_learning/ny_taxi/new-york-city-taxi-fare-prediction_small.zip` in `5.machine_learning/ny_taxi/data`.
+**If** you need to (re)create your conda environment:
+```
+conda env create -f environment.yml
+```
+
+
+2. Unzip `5.machine_learning/ny_taxi/new-york-city-taxi-fare-prediction_small.zip` in `5.machine_learning/ny_taxi/data`.
 
 Note: **do not** open the data with excel, there are too many rows.
 
-2. Start a new notebook
+3. Start a new notebook using jupyter lab
 
-3. Follow the questions below. Answer them in your notebook using code and text comments. You will have to explain orally what you have done during the session.
+4. Follow the questions below. Answer them in your notebook using code and text comments. You will have to explain orally what you have done during the session.
 
 
 ## Part 1
