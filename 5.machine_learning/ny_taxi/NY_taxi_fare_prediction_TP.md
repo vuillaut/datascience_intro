@@ -5,49 +5,57 @@ We will work on the kaggle challenge
 You will have to use what you have learned during this course.
 
 
+## Preparation
+
+1. Download the data from here: [https://filesender.renater.fr/?s=download&token=8525acf6-2ade-4840-922f-612f1a7a5c29](https://filesender.renater.fr/?s=download&token=8525acf6-2ade-4840-922f-612f1a7a5c29)
+
+Note: You can find information about the dataset here: [https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data)
+
+Unzip the data in your working directory.
+
+Note: **do not** open the data with excel, there are too many rowsgit
+
+2. Start a new notebook
+
+3. Follow the questions below. Answer them in your notebook using code and text comments. You will have to explain orally what you have done during the session.
+
 
 ## Part 1
 
 ### A. Data exploration
 
-1. Download the data from here: [https://filesender.renater.fr/?s=download&token=8525acf6-2ade-4840-922f-612f1a7a5c29](https://filesender.renater.fr/?s=download&token=8525acf6-2ade-4840-922f-612f1a7a5c29)
 
-Original dataset: https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data (Download All button)
-
-Unzip the data in your working directory.
-
-
-1. Start a new notebook
-
-2. Load the data from `train.csv` using pandas.
+1. Load the data from `train.csv` using pandas.
 Hint: I recommend you to use an option to limit the number of rows (e.g. to 100.000) loaded at first so you will have less trouble handling the data.
 
-1. Explore the data to understand what it is made of. What are the columns names? What do they represent?
+2. Explore the data to understand what it is made of. What are the columns names? What do they represent?
 
-2. What is the data type of each column?
+3. What is the data type of each column?
 Is this consistent? If not, fix it.
 
-3. What is the mean cost of a taxi ride in NY?
+4. What is the mean cost of a taxi ride in NY?
 
-4. Make histograms for each column of the dataframe.
+5. Make histograms for each column of the dataframe.
 
-5. From a web search, find the latitude and longitude of New-York.    
+6. From a web search, find the latitude and longitude of New-York.    
 Is this consistent with what you can see in the data?
 
-6. What are the min and max of `pickup_longitude`, `pickup_latitude`, `dropoff_longitude`, `dropoff_latitude`?
+7. What are the min and max of `pickup_longitude`, `pickup_latitude`, `dropoff_longitude`, `dropoff_latitude`?
 Does that seem consistent with a taxi ride within the city?    
 Select data that have longitude between (-74.3, -73.7) and latitudes between (40.5, 40.9). We use only this data for the rest of the project.
 
-7. Is there some inconsistent or missing data?   
+8. Is there some inconsistent or missing data?   
 Explain what and why.
 Remove it.
 
 
 ### B. Data visualisation
 
-- Make a scatter plot of the pickup locations
-- Make a scatter plot of the dropoff locations
-- plot on top of the NY map
+1. Make a scatter plot of the pickup locations
+
+2. Make a scatter plot of the dropoff locations
+
+3. plot on top of the NY map
 
 
 ### C. Data engineering
