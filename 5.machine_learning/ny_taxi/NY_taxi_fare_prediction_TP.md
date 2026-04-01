@@ -17,7 +17,7 @@ git pull
 git lfs pull
 ```
 
-Unzip `new-york-city-taxi-fare-prediction_small.zip` in your working directory.
+Unzip `5.machine_learning/ny_taxi/new-york-city-taxi-fare-prediction_small.zip` in `5.machine_learning/ny_taxi/data`.
 
 Note: **do not** open the data with excel, there are too many rows.
 
@@ -31,8 +31,7 @@ Note: **do not** open the data with excel, there are too many rows.
 ### A. Data exploration
 
 
-1. Load the data from `train.csv` using pandas.
-Hint: I recommend you to use an option to limit the number of rows (e.g. to 100.000) loaded at first so you will have less trouble handling the data.
+1. Load the data from `data/train.csv` using pandas.
 
 2. Explore the data to understand what it is made of. What are the columns names? What do they represent?
 
