@@ -10,7 +10,7 @@ You will have to use what you have learned during this course.
 
 ### A. Data exploration
 
-1. Download the data from the shared drive.
+1. Download the data from here: [https://filesender.renater.fr/?s=download&token=8525acf6-2ade-4840-922f-612f1a7a5c29](https://filesender.renater.fr/?s=download&token=8525acf6-2ade-4840-922f-612f1a7a5c29)
 
 Original dataset: https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data (Download All button)
 
@@ -27,18 +27,18 @@ Hint: I recommend you to use an option to limit the number of rows (e.g. to 100.
 2. What is the data type of each column?
 Is this consistent? If not, fix it.
 
-1. What is the mean cost of a taxi ride in NY?
+3. What is the mean cost of a taxi ride in NY?
 
-2. Make histograms for each column of the dataframe.
+4. Make histograms for each column of the dataframe.
 
-3. From a web search, find the latitude and longitude of New-York.    
+5. From a web search, find the latitude and longitude of New-York.    
 Is this consistent with what you can see in the data?
 
-1. What are the min and max of `pickup_longitude`, `pickup_latitude`, `dropoff_longitude`, `dropoff_latitude`?
+6. What are the min and max of `pickup_longitude`, `pickup_latitude`, `dropoff_longitude`, `dropoff_latitude`?
 Does that seem consistent with a taxi ride within the city?    
 Select data that have longitude between (-74.3, -73.7) and latitudes between (40.5, 40.9). We use only this data for the rest of the project.
 
-1. Is there some inconsistent or missing data?   
+7. Is there some inconsistent or missing data?   
 Explain what and why.
 Remove it.
 
