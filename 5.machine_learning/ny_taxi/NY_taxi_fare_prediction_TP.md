@@ -7,13 +7,19 @@ You will have to use what you have learned during this course.
 
 ## Preparation
 
-1. Download the data from here: [https://filesender.renater.fr/?s=download&token=8525acf6-2ade-4840-922f-612f1a7a5c29](https://filesender.renater.fr/?s=download&token=8525acf6-2ade-4840-922f-612f1a7a5c29)
+In the terminal (or anaconda prompt), go back to you working directory
 
-Note: You can find information about the dataset here: [https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data](https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data)
+```
+cd datascience_intro
 
-Unzip the data in your working directory.
+git pull
 
-Note: **do not** open the data with excel, there are too many rowsgit
+git lfs pull
+```
+
+Unzip `new-york-city-taxi-fare-prediction_small.zip` in your working directory.
+
+Note: **do not** open the data with excel, there are too many rows.
 
 2. Start a new notebook
 
