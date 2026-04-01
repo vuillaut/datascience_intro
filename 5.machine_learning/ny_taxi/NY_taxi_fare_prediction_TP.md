@@ -13,8 +13,6 @@ You will have to use what you have learned during this course.
 cd datascience_intro
 
 git pull
-
-git lfs pull
 ```
 
 **If** you need to (re)create your conda environment:
@@ -23,7 +21,7 @@ conda env create -f environment.yml
 ```
 
 
-2. Unzip `5.machine_learning/ny_taxi/new-york-city-taxi-fare-prediction_small.zip` in `5.machine_learning/ny_taxi/data`.
+2. Unzip `5.machine_learning/ny_taxi/new-york-city-taxi-fare-prediction_small.zip`
 
 Note: **do not** open the data with excel, there are too many rows.
 
@@ -37,7 +35,7 @@ Note: **do not** open the data with excel, there are too many rows.
 ### A. Data exploration
 
 
-1. Load the data from `data/train.csv` using pandas.
+1. Load the data from `train_small.csv` using pandas.
 
 2. Explore the data to understand what it is made of. What are the columns names? What do they represent?
 
